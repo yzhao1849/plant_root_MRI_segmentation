@@ -1,0 +1,1 @@
+on the top of 20190918_pure_soil_new, add 2 new real soil data: Sand1_new_121x1x256x256_uint8 and Sand2_new_121x1x256x256_uint8

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RootDataTypes>
+  <lupine_small>
+    <dir_name>lupine_small_xml</dir_name>
+    <real_mri>
+      <path>local_dir/Real MRI/Lupine_small/03_holobench</path>
+      <name>lupine_small.vtk</name>
+    </real_mri>
+    <depth_axis>z</depth_axis>
+    <swap_x_z>0</swap_x_z>
+    <shape x="256" y="256" z="128"/>
+    <radius_multiplier>1.00, 0.34, 1/sqrt(2), sqrt(2)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.56" y="0.5" radius="0.36"/>
+      <test_tube x="0.3" y="0.5" outer_radius="0.05" inner_radius="0.025"/>
+    </mask>
+    <voxelization>
+      <xml_path>local_dir/Real MRI/Lupine_small/03_holobench/June2016_lupine_small_03.xml</xml_path>
+      <translation x="19.8630378212" y="19.8253256989" z="20.2565291214"/>
+      <min x="-0.0776955" y="-0.0776955" z="-0.15875"/>
+      <max x="39.7024005" y="39.7024005" z="80.80375"/>
+      <axis_multiplier>1,1,1</axis_multiplier>
+      <z_fact>1</z_fact>
+      <fact>40.6389774167</fact>
+    </voxelization>
+  </lupine_small>
+
+  <lupine_22>
+    <dir_name>Lupine_22august</dir_name>
+    <real_mri>
+      <path>local_dir/Real MRI/lupine</path>
+      <name>Lupine_22august.vtk</name>
+    </real_mri>
+    <depth_axis>x</depth_axis>
+    <swap_x_z>1</swap_x_z>
+    <shape x="256" y="256" z="120"/>
+    <radius_multiplier>1.00, 0.34, 1/sqrt(2), sqrt(2)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.5" y="0.5" radius="7"/>
+      <test_tube x="0.4" y="0.28" outer_radius="0.05" inner_radius="0.05"/>
+    </mask>
+    <voxelization>
+      <xml_path>local_dir/Real MRI/lupine/lupin22august.xml</xml_path>
+      <translation x="63.8951" y="49.9" z="49.738153381347656"/>
+      <min x="-0.541667" y="-0.1953125" z="-0.1953125"/>
+      <max x="129.4582935" y="99.8046875" z="99.8046875"/>
+      <axis_multiplier>1,1,1</axis_multiplier>
+      <z_fact>1</z_fact>
+      <fact>129</fact>
+    </voxelization>
+  </lupine_22>
+
+  <lupine_april_2015>
+    <dir_name>LupineApril2015</dir_name>
+    <real_mri>
+      <path>local_dir/Real MRI/LupineApril2015</path>
+      <name>test_mo_oben.vtk</name>
+    </real_mri>
+    <depth_axis>z</depth_axis>
+    <swap_x_z>1</swap_x_z>
+    <shape x="256" y="256" z="128"/>
+    <radius_multiplier>1.00, 0.34, 1/sqrt(2), sqrt(2)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.5" y="0.5" radius="20"/>
+      <test_tube x="1.5" y="1.3" outer_radius="0" inner_radius="0"/>
+    </mask>
+    <voxelization>
+      <xml_path>local_dir/LupineApril2015/lu4_mo_oben.xml</xml_path>
+      <translation x="23.4" y="39.8" z="23.6"/>
+      <min x="0" y="0" z="0"/>
+      <max x="100.400002" y="100" z="100"/>
+      <axis_multiplier>1,1,1</axis_multiplier>
+      <z_fact>-1</z_fact>
+      <fact>64</fact>
+    </voxelization>
+  </lupine_april_2015>
+
+  <gtk>
+    <dir_name>gtk</dir_name>
+    <real_mri>
+      <path>local_dir/Real MRI/gtk</path>
+      <name>ge_ka3.vtk</name>
+    </real_mri>
+    <depth_axis>x</depth_axis>
+    <swap_x_z>1</swap_x_z>
+    <shape x="183" y="183" z="613"/>
+    <radius_multiplier>1.00, 0.34, 1/sqrt(2), sqrt(2)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.5" y="0.5" radius="0.495"/>
+      <test_tube x="0.5" y="0.3" outer_radius="0" inner_radius="2"/>
+    </mask>
+    <voxelization>
+      <xml_path>local_dir/Real MRI/gtk/ge_ka3.xml</xml_path>
+      <translation x="4.79381999552249908" y="1.48541000306606293" z="1.472310001105070114"/>
+      <min x="-0.007814" y="-0.007814" z="-0.007814"/>
+      <max x="9.57215" y="2.85211" z="2.85211"/>
+      <axis_multiplier>1,1,1</axis_multiplier>
+      <z_fact>1</z_fact>
+      <fact>10</fact>
+    </voxelization>
+  </gtk>
+
+  <_3_soil_1w_dap10>
+    <dir_name>3_Soil_1W_DAP10</dir_name>
+    <real_mri>
+      <path>local_dir/Real MRI/manual-reconstructiontemp/3_Soil_1W_DAP10</path>
+      <name>mri.npy</name>
+    </real_mri>
+    <depth_axis>x</depth_axis>
+    <swap_x_z>1</swap_x_z>
+    <shape x="256" y="256" z="189"/>
+    <radius_multiplier>1.00, 0.34, 1/sqrt(2), sqrt(2)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.51" y="0.528" radius="0.445"/>
+      <test_tube x="0.49" y="0.865" outer_radius="0.035" inner_radius="0.035"/>
+    </mask>
+    <voxelization>
+      <xml_path>local_dir/Real MRI/III_Soil_1W/annotated_images/III_Soil_1W_DAP10.xml</xml_path>
+      <translation x="35" y="35" z="34.9"/>
+      <min x="0" y="0" z="0"/>
+      <max x="70.1" y="70.1" z="70.1"/>
+      <axis_multiplier>1,1,1</axis_multiplier>
+      <z_fact>-1</z_fact>
+      <fact>70</fact>
+    </voxelization>
+  </_3_soil_1w_dap10>
+
+  <_3_soil_1w_dap14>
+    <dir_name>3_Soil_1W_DAP14</dir_name>
+    <real_mri>
+      <path>local_dir/Real MRI/manual-reconstructiontemp/3_Soil_1W_DAP14</path>
+      <name>mri.npy</name>
+    </real_mri>
+    <depth_axis>x</depth_axis>
+    <swap_x_z>1</swap_x_z>
+    <shape x="256" y="256" z="186"/>
+    <radius_multiplier>1.00, 0.34, 1/sqrt(2), sqrt(2)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.51" y="0.528" radius="0.445"/>
+      <test_tube x="0.49" y="0.865" outer_radius="0.035" inner_radius="0.035"/>
+    </mask>
+    <voxelization>
+      <xml_path>local_dir/Real MRI/III_Soil_1W/annotated_images/III_Soil_1W_DAP14.xml</xml_path>
+      <translation x="35" y="35" z="34.9"/>
+      <min x="0" y="0" z="0"/>
+      <max x="70.1" y="70.1" z="70.1"/>
+      <axis_multiplier>1,1,1</axis_multiplier>
+      <z_fact>-1</z_fact>
+      <fact>70</fact>
+    </voxelization>
+  </_3_soil_1w_dap14>
+
+  <ii_sand_d4>
+    <dir_name>II_Sand_D4</dir_name>
+    <real_mri>
+      <path></path>
+      <name>mri.npy</name>
+    </real_mri>
+    <depth_axis>x</depth_axis>
+    <swap_x_z>0</swap_x_z>
+    <shape x="256" y="256" z="210"/>
+    <radius_multiplier>1.00, sqrt(2), sqrt(3)</radius_multiplier>
+    <mask>
+      <plant_pot x="0.51" y="0.525" radius="0.445"/>
+      <test_tube x="0.53" y="0.16" outer_radius="0.045" inner_radius="0.04"/>
+    </mask>
+    <voxelization>
+      <xml_path> </xml_path>
+      <translation x="35" y="35" z="35"/>
+      <min x="0" y="0" z="0"/>
+      <max x="70.1" y="70.1" z="70.1"/>
+      <axis_multiplier>3,3,1</axis_multiplier>
+      <z_fact>-1</z_fact>
+      <fact>70</fact>
+    </voxelization>
+  </ii_sand_d4>  
+
+  <ii_sand_d4_dap5>
+    <parent_type>ii_sand_d4</parent_type>
+    <dir_name>II_Sand_D4_DAP5</dir_name>
+    <mri_path>local_dir/Real MRI/manual-reconstructiontemp/II_Sand_D4_DAP5</mri_path>
+    <xml_path>local_dir/Real_MRI/II_Sand_4D/annotated_images/DAP5_256x256x210.xml</xml_path>
+  </ii_sand_d4_dap5>
+
+  <ii_sand_d4_dap17>
+    <parent_type>ii_sand_d4</parent_type>
+    <dir_name>II_Sand_D4_DAP17</dir_name>
+    <mri_path>local_dir/Real MRI/manual-reconstructiontemp/II_Sand_D4_DAP17</mri_path>
+    <xml_path>local_dir/Real_MRI/II_Sand_4D/annotated_images/DAP17_256x256x210.xml</xml_path>
+  </ii_sand_d4_dap17>
+
+  <ii_sand_d4_dap24>
+    <parent_type>ii_sand_d4</parent_type>
+    <dir_name>II_Sand_D4_DAP24</dir_name>
+    <mri_path>local_dir/Real MRI/manual-reconstructiontemp/II_Sand_D4_DAP24</mri_path>
+    <xml_path>local_dir/Real_MRI/II_Sand_4D/annotated_images/DAP24_256x256x210.xml</xml_path>
+  </ii_sand_d4_dap24>
+
+  <i_soil_1w_dap7>
+    <dir_name>I_Soil_1W_DAP7</dir_name>
+    <real_mri>
+      <path>to_be_determined</path>
+      <name>to_be_determined</name>
+    </real_mri>
+    <depth_axis>to_be_determined</depth_axis>
+    <swap_x_z>to_be_determined</swap_x_z>
+    <shape x="256" y="256" z="131"/>
+    <radius_multiplier>-1</radius_multiplier>
+    <mask>
+      <plant_pot x="0.48" y="0.51" radius="0.414"/>
+      <test_tube x="0.84" y="0.57" outer_radius="0.0625" inner_radius="0.0625"/>
+    </mask>
+    <voxelization>
+      <xml_path>to_be_determined</xml_path>
+      <translation x="" y="" z=""/>
+      <min x="" y="" z=""/>
+      <max x="" y="" z=""/>
+      <axis_multiplier>to_be_determined</axis_multiplier>
+      <z_fact>to_be_determined</z_fact>
+      <fact>to_be_determined</fact>
+    </voxelization>
+  </i_soil_1w_dap7>
+
+  <i_soil_4d_dap7>
+    <dir_name>I_Soil_4D_DAP7</dir_name>
+    <real_mri>
+      <path>to_be_determined</path>
+      <name>to_be_determined</name>
+    </real_mri>
+    <depth_axis>to_be_determined</depth_axis>
+    <swap_x_z>to_be_determined</swap_x_z>
+    <shape x="256" y="256" z="137"/>
+    <radius_multiplier>-1</radius_multiplier>
+    <mask>
+      <plant_pot x="0.51" y="0.49" radius="0.414"/>
+      <test_tube x="0.65" y="0.8" outer_radius="0.066" inner_radius="0.066"/>
+    </mask>
+    <voxelization>
+      <xml_path>to_be_determined</xml_path>
+      <translation x="" y="" z=""/>
+      <min x="" y="" z=""/>
+      <max x="" y="" z=""/>
+      <axis_multiplier>to_be_determined</axis_multiplier>
+      <z_fact>to_be_determined</z_fact>
+      <fact>to_be_determined</fact>
+    </voxelization>
+  </i_soil_4d_dap7>
+
+  <i_sand_3d_dap5>
+    <dir_name>I_Sand_3D_DAP5</dir_name>
+    <real_mri>
+      <path>to_be_determined</path>
+      <name>to_be_determined</name>
+    </real_mri>
+    <depth_axis>to_be_determined</depth_axis>
+    <swap_x_z>to_be_determined</swap_x_z>
+    <shape x="256" y="256" z="137"/>
+    <radius_multiplier>-1</radius_multiplier>
+    <mask>
+      <plant_pot x="0.48" y="0.48" radius="0.4"/>
+      <test_tube x="0.34" y="0.77" outer_radius="0.039" inner_radius="0.039"/>
+    </mask>
+    <voxelization>
+      <xml_path>to_be_determined</xml_path>
+      <translation x="" y="" z=""/>
+      <min x="" y="" z=""/>
+      <max x="" y="" z=""/>
+      <axis_multiplier>to_be_determined</axis_multiplier>
+      <z_fact>to_be_determined</z_fact>
+      <fact>to_be_determined</fact>
+    </voxelization>
+  </i_sand_3d_dap5>
+</RootDataTypes>

@@ -1,0 +1,2 @@
+the same as 20190828_oguz_datasets_non_combining_withTrainVal_visReal
+except there's only Lupine_22august and lupine_small_xml in visualization data!

@@ -1,0 +1,86 @@
+voxellization_params = [dataset_name, [int(resolution[i] * res_mult_fac) for i in range(3)], depth_axis,
+                        radius_multiplier, translation, bound_start, bound_end, fact, depth_fact, z_rotation,
+                        ctr, double_stream, data_type]
+
+*** I_Sand_3D_DAP5 ***
+min_mri_xyz = [98, 23, 10]
+max_mri_xyz = [223, 222, 63]
+mri_range_xyz = [256, 256, 70]
+voxellization_params: ['I_Sand_3D', [256, 256, 70], 'z', 1.0, [33.5, 36.4, 61.], [0, 0, 0], [71.287, 72., 68.], 1, 1, 0, 0, <__main__.StreamTee object at 0x7f0e040a32e8>, 'root_sys']
+
+*** I_Sand_3D_DAP13 ***
+!!! Warning: only part of voxelization can match real MRI image
+min_mri_xyz = [22, 23, 1]
+max_mri_xyz = [239, 244, 188]
+mri_range_xyz = [256, 256, 198]
+voxellization_params: ['I_Sand_3D_DAP13', [256, 256, 198], 'z', 1.0, [32.45193548387097, 37.21544343891403, 189.13462663101603], [0, 0, 0], [71.35561290322582, 71.60702262443439, 198.91607294117645], 1, 1, 0, 0, <__main__.StreamTee object at 0x7f0e040a32e8>, 'root_sys']
+
+*** I_Soil_1W_DAP7 ***
+z axis flipped
+min_mri_xyz = [19, 35, 3]
+max_mri_xyz = [215, 190, 94]
+mri_range_xyz = [256, 256, 131]
+voxellization_params: ['I_Soil_1W_DAP7', [256, 256, 131], 'z', 1.0, [41.9, 36.5, 0.5], [0, 0, 0], [69.0, 72.0, 131.0], 1, 1, 0, 0, <__main__.StreamTee object at 0x7f0de70123c8>, 'root_sys']
+
+*** I_Soil_1W_DAP13 ***
+!!! Warning: only part of voxelization can match real MRI image
+z axis flipped
+min_mri_xyz = [11, 20, 0]
+max_mri_xyz = [232, 229, 192]
+mri_range_xyz = [256, 256, 192]
+voxellization_params: ['I_Soil_1W_DAP13', [256, 256, 192], 'z', 1.0, [41.56897285067873, 35.02236842105263, -0.4733], [0, 0, 0], [68.74700452488688, 68.70231578947369, 191.5267], 1, 1, 0, 0, <__main__.StreamTee object at 0x7f0de6fbb908>, 'root_sys']
+
+*** I_Soil_1W_DAP19 ***
+!!! Warning: only part of voxelization can match real MRI image
+z axis flipped
+min_mri_xyz = [14, 11, 0]
+max_mri_xyz = [240, 234, 200]
+mri_range_xyz = [256, 256, 200]
+voxellization_params: ['I_Soil_1W_DAP19', [256, 256, 200], 'z', 1.0, [42.324628318584075, 35.29, -0.4733], [0, 0, 0], [70.0, 70.0, 200.0], 1, 1, 0, 0, <__main__.StreamTee object at 0x7f0de70f3da0>, 'root_sys']
+
+
+### From here on, just roughly matching!! ###
+
+
+*** I_Soil_1W_DAP26 ***  # annotation seems to miss many roots, especially at the bottom of the pot
+!!! Warning: only part of voxelization can match real MRI image
+z axis flipped
+min_mri_xyz = [13, 19, 4]
+max_mri_xyz = [242, 247, 204]
+mri_range_xyz = [256, 256, 204]
+voxellization_params: ['I_Soil_1W/DAP26', [256, 256, 204], 'z', 1.0, [41.91180786026201, 36.56925, 3.537834], [0, 0, 0], [68.58452401746725, 70.12042105263157, 204.567834], 1, 1, 0, 0, <__main__.StreamTee object at 0x7fe351241f98>, 'root_sys']
+
+*** I_Soil_1W_DAP32 ***  # the voxellized result is the same as DAP19 and DAP26!!
+!!! Warning: only part of voxelization can match real MRI image
+z axis flipped
+min_mri_xyz = [12, 15, 1]
+max_mri_xyz = [238, 243, 205]
+mri_range_xyz = [256, 256, 206]
+voxellization_params: ['I_Soil_1W/DAP32', [256, 256, 206], 'z', 1.0, [41.68657522123894, 35.47361842105263, 0.5098210784313726], [0, 0, 0], [69.49493805309734, 70.12042105263157, 202.52294215686277], 1, 1, 0, 0, <__main__.StreamTee object at 0x7fe353166c88>, 'root_sys']
+
+*** I_Soil_4D_DAP7 ***
+min_mri_xyz = [60, 100, 0]
+max_mri_xyz = [170, 239, 137]
+mri_range_xyz = [256, 256, 137]
+voxellization_params: ['I_Soil_4D/DAP7', [256, 256, 137], 'z', 1.0, [19.0, 36.0, 135.54], [0, 0, 0], [70.0, 71.0, 135.90015], 1, 1, 0, 0, <__main__.StreamTee object at 0x7fe353065710>, 'root_sys']
+
+*** I_Soil_4D_DAP13 ***
+!!! Warning: the very top part of the pot does not match well!
+min_mri_xyz = [32, 27, 0]
+max_mri_xyz = [234, 241, 192]
+mri_range_xyz = [256, 256, 192]
+voxellization_params: ['I_Soil_4D/DAP13', [256, 256, 192], 'z', 1.0, [19.0, 34.5, 189.95], [0, 0, 0], [71.0, 70.0, 191.5], 1, 1, 0, 0, <__main__.StreamTee object at 0x7fe3515417b8>, 'root_sys']
+
+*** I_Soil_4D_DAP18 ***
+!!! Warning: the very top part of the pot, and some of the lower branches do not match well!
+min_mri_xyz = [17, 15, 0]
+max_mri_xyz = [236, 241, 194]
+mri_range_xyz = [256, 256, 194]
+voxellization_params: ['I_Soil_4D/DAP18', [256, 256, 194], 'z', 1.0, [18.5, 35.0, 192.19], [0, 0, 0], [70.0, 70.0, 196.0], 1, 1, 0, 0, <__main__.StreamTee object at 0x7fe351223048>, 'root_sys']
+
+*** I_Soil_4D_DAP25 ***
+!!! Warning: many branches do not match well!
+min_mri_xyz = [15, 24, 0]
+max_mri_xyz = [234, 242, 191]
+mri_range_xyz = [256, 256, 191]
+voxellization_params: ['I_Soil_4D/DAP25', [256, 256, 191], 'z', 1.0, [18.504602739726028, 34.0, 192.19], [0, 0, 0], [70.4444200913242, 70.84506422018349, 195.0], 1, 1, 0, 0, <__main__.StreamTee object at 0x7fe353032128>, 'root_sys']

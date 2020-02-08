@@ -1,0 +1,9 @@
+{
+    "crop_side_length": 60,
+    "net": "UNet_3D_noPadding_BNbeforeReLU.py",
+    "normalize_all": false,
+    "numpy_seed": 0,
+    "pytorch_seed": 0,
+    "super_resolution_factor": 2,
+    "if_use_later_timepoint": false,
+}
